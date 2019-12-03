@@ -6,7 +6,7 @@ from vk_api import VkUpload
 
 class VkBot:
 
-    def __init__(self, token, group_id, config_path, database=None, dialog=None):
+    def __init__(self, token, group_id, config_path, database=None):
         self.token = token
         self.group_id = group_id
         self.vk = None
@@ -14,7 +14,6 @@ class VkBot:
         self.vk_api = None
         self.database = database
         self.config_path = config_path
-        self.dialog = dialog
         self.menus = {}
 
     def init_server(self):
