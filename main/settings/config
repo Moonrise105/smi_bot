@@ -1,0 +1,25 @@
+[path]
+path_logo = C:/Users/-/Desktop/smi_bot/logo1.png
+path_example = C:/Users/-/Desktop/smi_bot/example.jpg
+path_save = C:/Users/-/Desktop/smi_bot/new.jpg
+path_template = C:/Users/-/Desktop/smi_bot/template.png
+path_out = C:/Users/-/Desktop/smi_bot/out.jpg
+path_font = C:/Users/-/Desktop/smi_bot/helveticaneuecyr-roman.otf
+path_bright = C:/Users/-/Desktop/smi_bot/brightness
+[messages]
+
+
+[vk]
+token = 29f705f3963d1e9ef07496b41699f916fc9a29391c049fe36b29accf825a4e6c7da6298f7e416af5667b5
+group_id = 187123076
+
+
+[db]
+host = localhost
+password = Dibenko105120
+user = root
+name = smi
+
+[db_users]
+columns = user_id, state
+state = 0
