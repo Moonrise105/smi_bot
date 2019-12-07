@@ -2,6 +2,7 @@ import vk_api.vk_api
 from vk_api.bot_longpoll import VkBotLongPoll
 import io
 from vk_api import VkUpload
+from main import funcs
 
 
 class VkBot:
